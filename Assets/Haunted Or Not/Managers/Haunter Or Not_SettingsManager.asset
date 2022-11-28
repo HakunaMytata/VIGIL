@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Haunter Or Not_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 0
-  saveFileName: 
+  saveFileName: VIGIL
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
