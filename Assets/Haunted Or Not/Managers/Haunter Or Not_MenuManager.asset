@@ -1582,7 +1582,7 @@ MonoBehaviour:
     y: 135.75
     width: 194.25
     height: 178.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-4238344014049781314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1690,7 +1690,7 @@ MonoBehaviour:
     y: 207.5825
     width: 103.08751
     height: 34.835
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-3950468543418733890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1792,7 +1792,7 @@ MonoBehaviour:
     y: 172.8
     width: 178.5
     height: 54
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-3942187050180238998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2050,7 +2050,7 @@ MonoBehaviour:
     y: 123.75
     width: 162.74998
     height: 202.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-3385344612915886542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2994,7 +2994,7 @@ MonoBehaviour:
     y: 69.3
     width: 237.75023
     height: 311.4
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-802752039869993929
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3112,7 +3112,7 @@ MonoBehaviour:
     y: 48.246353
     width: 294
     height: 353.5073
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-670428008279576245
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3421,7 +3421,7 @@ MonoBehaviour:
     y: 152.25
     width: 162.75
     height: 145.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &-194851381861436285
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3594,14 +3594,14 @@ MonoBehaviour:
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
-  keyboardControlWhenPaused: 1
+  keyboardControlWhenPaused: 0
   keyboardControlWhenCutscene: 0
-  keyboardControlWhenDialogOptions: 1
+  keyboardControlWhenDialogOptions: 0
   autoSelectValidRaycasts: 0
   horizontalInputAxis: Horizontal
   verticalInputAxis: Vertical
   useAddressables: 0
-  hasUpgraded: 0
+  hasUpgraded: 1
   doWindowsPreviewFix: 1
   drawOutlines: 1
   drawInEditor: 1
@@ -4112,7 +4112,7 @@ MonoBehaviour:
     y: 152.25
     width: 162.75
     height: 145.5
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &1531097514797566343
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4494,7 +4494,7 @@ MonoBehaviour:
     y: 160.875
     width: 89.25
     height: 128.25
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &2119061291223436976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5029,7 +5029,7 @@ MonoBehaviour:
     y: 423.15
     width: 38.325
     height: 26.85
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &3403325544566629460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5333,7 +5333,7 @@ MonoBehaviour:
     y: 76.93797
     width: 285.07498
     height: 296.12405
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &4445035471706567183
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6304,7 +6304,7 @@ MonoBehaviour:
     y: 134.3299
     width: 292.19696
     height: 181.34021
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &7670417714642955907
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6471,7 +6471,7 @@ MonoBehaviour:
     y: 296.55002
     width: 262.5
     height: 126
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &8087729515439529765
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6767,7 +6767,7 @@ MonoBehaviour:
     y: 248.9625
     width: 189
     height: 129.375
-  showInFilter: 0
+  showInFilter: 1
 --- !u!114 &9173837558878552304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6873,4 +6873,4 @@ MonoBehaviour:
     y: 0
     width: 525
     height: 56.713634
-  showInFilter: 0
+  showInFilter: 1
