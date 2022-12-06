@@ -221,6 +221,10 @@ GameObject:
   - component: {fileID: 59723595}
   - component: {fileID: 59723597}
   - component: {fileID: 59723598}
+  - component: {fileID: 59723602}
+  - component: {fileID: 59723601}
+  - component: {fileID: 59723599}
+  - component: {fileID: 59723600}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -241,11 +245,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 107.85913, y: 12.455251}
+  scrollPos: {x: 67.680954, y: 167.7811}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.87766194
+  zoom: 0.96766186
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -253,9 +257,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 59723595}
+  - {fileID: 59723590}
   selectedCommands:
-  - {fileID: 59723598}
+  - {fileID: 59723602}
   variables: []
   description: 
   stepPause: 0
@@ -281,9 +285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: '"Oh, hello. You must be the investigators. Look, I already told the
-    firm that there''s a ghost here. No need to investigate. (trails off)But then
-    who believes an old lady these days...'
+  storyText: '"Oh, hello. You must be the investigators. You look...younger than
+    I expected {w=3}...{wi}'
   description: 
   character: {fileID: 488695667}
   portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
@@ -310,9 +313,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 130
-    y: 46
-    width: 76.77568
+    x: 106.231384
+    y: 35.665794
+    width: 77.28226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -321,7 +324,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 59723591}
   commandList:
+  - {fileID: 59723602}
+  - {fileID: 59723601}
   - {fileID: 59723589}
+  - {fileID: 59723600}
+  - {fileID: 59723599}
   - {fileID: 59723593}
   - {fileID: 59723594}
   suppressAllAutoSelections: 0
@@ -368,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  text: Introduce yourself
+  text: Tell me more about this ghost
   description: 
   targetBlock: {fileID: 59723596}
   hideIfVisited: 0
@@ -393,7 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: Waltz in
+  text: Assert dominance
   description: 
   targetBlock: {fileID: 59723595}
   hideIfVisited: 0
@@ -418,9 +425,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 305
-    y: 43
-    width: 93.29685
+    x: 284.33167
+    y: 33.699226
+    width: 93.816956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -447,7 +454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 131
-    width: 149.12701
+    width: 148.38147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -472,9 +479,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: '"Good afternoon, ma''am. I''m detective Knobi and this is my colleague
-    Miss Birch. Our investigation is part of our protocol. It''s best if you just
-    let us in."'
+  storyText: 'Good afternoon, ma''am. I''m supernatural detective Knobi and this
+    is my colleague Miss Birch. We''re here with VIGIL. Could you tell us more about
+    this ghost? '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -489,7 +496,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &59723598
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -501,9 +508,121 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: '"Step aside, ma''am" '
+  storyText: Ma'am, I'm here on government issued business. Now step aside so I can
+    do my job.
   description: 
   character: {fileID: 1836817569}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723599
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: '{size=25}But then who believes an old lady these days...{/size}'
+  description: 
+  character: {fileID: 488695667}
+  portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723600
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: Look, I already told the firm that there's a ghost here. No need to
+    investigate.
+  description: 
+  character: {fileID: 488695667}
+  portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723601
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  storyText: Miss Marie, an elderly lady dressed in a floral house garb and ownder
+    of the property comes shuffling towards you and your colleague.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723602
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  storyText: You find yourself in the cozy living room. The TV is on and you smell
+    a waft of sauteed onions coming from the kitchen.
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
