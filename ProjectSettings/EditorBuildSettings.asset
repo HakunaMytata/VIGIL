@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/New Scenes/FrontPorchNew.unity
     guid: 11dd3127817db4e9abe837a06c6d6017
+  - enabled: 1
+    path: Assets/New Scenes/LivingRoom.unity
+    guid: a2685a24fb9624c8b9f74a1189ccf855
   m_configObjects: {}
