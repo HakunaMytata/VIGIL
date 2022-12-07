@@ -671,11 +671,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 334.36075, y: 386.30612}
+  scrollPos: {x: 396.47687, y: 401.75864}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.4619999
+  zoom: 0.43149984
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -683,9 +683,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398637030}
-  selectedCommands:
-  - {fileID: 1398637051}
+  - {fileID: 1398637044}
+  selectedCommands: []
   variables:
   - {fileID: 1398637054}
   - {fileID: 1398637053}
@@ -716,7 +715,7 @@ MonoBehaviour:
   storyText: 'Good day, Knobi. '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -742,7 +741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.77704
     y: -105.37821
-    width: 114.93508
+    width: 118.36619
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -807,7 +806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 108.441574
+    width: 112.57245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -851,7 +850,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -878,7 +877,7 @@ MonoBehaviour:
   storyText: So...I heard this is your first big case on the field.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -905,7 +904,7 @@ MonoBehaviour:
   storyText: Great, here's your gear.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -985,7 +984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.14612
     y: 157.96913
-    width: 101.94806
+    width: 105.61995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1018,7 +1017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.3119
     y: -103.89334
-    width: 77.05628
+    width: 76.65123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1106,7 +1105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 627.3868
     y: 91.75089
-    width: 140.90912
+    width: 145.01743
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1230,7 +1229,7 @@ MonoBehaviour:
   storyText: It's just a regular film camera on a tripod, really.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1337,7 +1336,7 @@ MonoBehaviour:
     \n"
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1363,7 +1362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.18127
     y: 165.32895
-    width: 144.15587
+    width: 147.33492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1422,7 +1421,7 @@ MonoBehaviour:
   storyText: Let's get going.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1449,7 +1448,7 @@ MonoBehaviour:
   storyText: Just look for woozy stuff that checks the boxes, you know the drill.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1504,7 +1503,7 @@ MonoBehaviour:
     with the signal.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1531,7 +1530,7 @@ MonoBehaviour:
   storyText: 'We have a lot of cartridges so you can shoot as much as you like. '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1698,7 +1697,7 @@ MonoBehaviour:
     use them, right?" '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3024,7 +3023,7 @@ MonoBehaviour:
   storyText: 'Great. Here''s the pendulum as well. '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3562,7 +3561,7 @@ MonoBehaviour:
   storyText: 'Great. Here''s the camera as well. '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
