@@ -259,7 +259,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 59723590}
   selectedCommands:
-  - {fileID: 59723602}
+  - {fileID: 59723599}
   variables: []
   description: 
   stepPause: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
     I expected {w=3}...{wi}'
   description: 
   character: {fileID: 488695667}
-  portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -315,7 +315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.231384
     y: 35.665794
-    width: 77.28226
+    width: 77.3856
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -427,7 +427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 284.33167
     y: 33.699226
-    width: 93.816956
+    width: 94.95372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 131
-    width: 148.38147
+    width: 154.3753
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
   storyText: '{size=25}But then who believes an old lady these days...{/size}'
   description: 
   character: {fileID: 488695667}
-  portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -567,7 +567,7 @@ MonoBehaviour:
     investigate.
   description: 
   character: {fileID: 488695667}
-  portrait: {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -791,7 +791,7 @@ MonoBehaviour:
   nameColor: {r: 0.8584906, g: 0.34775382, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 8dea642e372f94e6d94bfb485720e576, type: 3}
+  - {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

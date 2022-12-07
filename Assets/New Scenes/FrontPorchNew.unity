@@ -362,7 +362,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  - {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -427,18 +427,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.07894331, y: -1.4447334}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
+    oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 3, y: 3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2.8421135, y: 6.4562287}
   m_EdgeRadius: 0
 --- !u!212 &653925564
 SpriteRenderer:
@@ -480,7 +480,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3238dca1e9ea9fb4aa64b28298ba6dbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -649,6 +649,8 @@ GameObject:
   - component: {fileID: 1398637066}
   - component: {fileID: 1398637065}
   - component: {fileID: 1398637064}
+  - component: {fileID: 1398637072}
+  - component: {fileID: 1398637071}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -669,11 +671,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -71.04463, y: 232.51547}
+  scrollPos: {x: 334.36075, y: 386.30612}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.4619999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -681,8 +683,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398637034}
-  selectedCommands: []
+  - {fileID: 1398637030}
+  selectedCommands:
+  - {fileID: 1398637051}
   variables:
   - {fileID: 1398637054}
   - {fileID: 1398637053}
@@ -739,7 +742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.77704
     y: -105.37821
-    width: 118.18181
+    width: 114.93508
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -804,7 +807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 111.81818
+    width: 108.441574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -812,7 +815,8 @@ MonoBehaviour:
   blockName: New Block
   description: 
   eventHandler: {fileID: 1398637022}
-  commandList: []
+  commandList:
+  - {fileID: 1398637072}
   suppressAllAutoSelections: 0
 --- !u!4 &1398637024
 Transform:
@@ -928,7 +932,7 @@ MonoBehaviour:
   storyText: A pendulum is a six-sided gemstone attached to a cord.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -981,7 +985,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.14612
     y: 157.96913
-    width: 106.36363
+    width: 101.94806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1014,7 +1018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.3119
     y: -103.89334
-    width: 76.36363
+    width: 77.05628
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1040,6 +1044,7 @@ MonoBehaviour:
   - {fileID: 1398637047}
   - {fileID: 1398637046}
   - {fileID: 1398637055}
+  - {fileID: 1398637071}
   suppressAllAutoSelections: 0
 --- !u!114 &1398637032
 MonoBehaviour:
@@ -1101,7 +1106,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 627.3868
     y: 91.75089
-    width: 142.72726
+    width: 140.90912
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1358,7 +1363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.18127
     y: 165.32895
-    width: 149.0909
+    width: 144.15587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1553,7 +1558,7 @@ MonoBehaviour:
   storyText: 'I got you a pretuned one in aquamarine, to match the color of our logo. '
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1581,7 +1586,7 @@ MonoBehaviour:
     Basically it will point you to the nearest ghost.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3899,6 +3904,42 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1398637071
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398637017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 1
+  targetClickable2D: {fileID: 653925562}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1398637072
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398637017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  targetClickable2D: {fileID: 653925562}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1445884869
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,18 +3987,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.9740372, y: 0.57954884}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
+    oldSize: {x: 25.507326, y: 33}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 12.205925, y: 29.38209}
   m_EdgeRadius: 0
 --- !u!212 &1445884872
 SpriteRenderer:
@@ -3999,7 +4040,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4019,7 +4060,7 @@ Transform:
   m_GameObject: {fileID: 1445884869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: -0.31, z: 0}
-  m_LocalScale: {x: 0.775, y: 1.89, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
