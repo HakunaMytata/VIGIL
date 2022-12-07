@@ -683,8 +683,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398637044}
-  selectedCommands: []
+  - {fileID: 1398637031}
+  selectedCommands:
+  - {fileID: 1398637055}
   variables:
   - {fileID: 1398637054}
   - {fileID: 1398637053}
@@ -1475,7 +1476,7 @@ MonoBehaviour:
   storyText: Oh, and before I forget...Here's the List of Spooky.
   description: 
   character: {fileID: 612903303}
-  portrait: {fileID: 21300000, guid: d47aeb8ebf5c14947bf0809faef59a37, type: 3}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
