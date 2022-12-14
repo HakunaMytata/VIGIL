@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 622361972}
   - component: {fileID: 622361971}
   - component: {fileID: 622361976}
+  - component: {fileID: 622361977}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -406,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 5
-  indentLevel: 0
+  indentLevel: 1
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: LivingRoom
@@ -441,12 +442,13 @@ MonoBehaviour:
   - {fileID: 622361961}
   - {fileID: 622361960}
   - {fileID: 622361958}
+  - {fileID: 622361946}
   - {fileID: 622361959}
   - {fileID: 622361974}
   - {fileID: 622361973}
   - {fileID: 622361972}
+  - {fileID: 622361977}
   - {fileID: 622361971}
-  - {fileID: 622361946}
   suppressAllAutoSelections: 0
 --- !u!114 &622361948
 MonoBehaviour:
@@ -771,7 +773,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 622361947}
   selectedCommands:
-  - {fileID: 622361971}
+  - {fileID: 622361972}
   variables:
   - {fileID: 622361950}
   - {fileID: 622361949}
@@ -1326,7 +1328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 622361969}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 1995496440}
   waitFrames: 1
 --- !u!114 &622361967
 MonoBehaviour:
@@ -1772,6 +1774,25 @@ MonoBehaviour:
   scope: 2
   key: Var6
   value: 0
+--- !u!114 &622361977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622361944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: LivingRoom
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &728764150
 GameObject:
   m_ObjectHideFlags: 0
