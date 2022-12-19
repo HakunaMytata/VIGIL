@@ -407,6 +407,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44831859}
   m_CullTransparentMesh: 1
+--- !u!1 &76681197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76681201}
+  - component: {fileID: 76681200}
+  - component: {fileID: 76681199}
+  - component: {fileID: 76681198}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &76681198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76681197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d49b7c1bcd2e07499844da127be038d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ForceModuleActive: 0
+--- !u!114 &76681199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76681197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &76681200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76681197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &76681201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76681197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &135576210
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,14 +2093,11 @@ GameObject:
   - component: {fileID: 477116221}
   - component: {fileID: 477116220}
   - component: {fileID: 477116219}
-  - component: {fileID: 477116218}
   - component: {fileID: 477116242}
   - component: {fileID: 477116241}
   - component: {fileID: 477116240}
   - component: {fileID: 477116237}
   - component: {fileID: 477116236}
-  - component: {fileID: 477116235}
-  - component: {fileID: 477116234}
   - component: {fileID: 477116223}
   - component: {fileID: 477116259}
   - component: {fileID: 477116258}
@@ -2201,6 +2278,41 @@ GameObject:
   - component: {fileID: 477116351}
   - component: {fileID: 477116336}
   - component: {fileID: 477116335}
+  - component: {fileID: 477116422}
+  - component: {fileID: 477116421}
+  - component: {fileID: 477116420}
+  - component: {fileID: 477116419}
+  - component: {fileID: 477116418}
+  - component: {fileID: 477116417}
+  - component: {fileID: 477116425}
+  - component: {fileID: 477116424}
+  - component: {fileID: 477116423}
+  - component: {fileID: 477116434}
+  - component: {fileID: 477116433}
+  - component: {fileID: 477116432}
+  - component: {fileID: 477116431}
+  - component: {fileID: 477116430}
+  - component: {fileID: 477116429}
+  - component: {fileID: 477116428}
+  - component: {fileID: 477116427}
+  - component: {fileID: 477116426}
+  - component: {fileID: 477116450}
+  - component: {fileID: 477116449}
+  - component: {fileID: 477116448}
+  - component: {fileID: 477116447}
+  - component: {fileID: 477116446}
+  - component: {fileID: 477116445}
+  - component: {fileID: 477116444}
+  - component: {fileID: 477116443}
+  - component: {fileID: 477116442}
+  - component: {fileID: 477116441}
+  - component: {fileID: 477116440}
+  - component: {fileID: 477116439}
+  - component: {fileID: 477116438}
+  - component: {fileID: 477116437}
+  - component: {fileID: 477116436}
+  - component: {fileID: 477116435}
+  - component: {fileID: 477116218}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2267,7 +2379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 788.0815
     y: 19.297176
-    width: 123.10488
+    width: 120.3448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2317,7 +2429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.00517
     y: 37.83911
-    width: 111.371994
+    width: 110.68964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2349,11 +2461,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 480.67703, y: -91.01254}
-  variablesScrollPos: {x: 0, y: 127}
+  scrollPos: {x: 590.07996, y: 76.92595}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.5539986
+  blockViewHeight: 412.8
+  zoom: 0.5800002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2361,9 +2473,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 477116338}
-  selectedCommands:
-  - {fileID: 477116336}
+  - {fileID: 477116214}
+  selectedCommands: []
   variables:
   - {fileID: 477116203}
   - {fileID: 477116227}
@@ -3457,7 +3568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.43274
     y: 32.163696
-    width: 119.49476
+    width: 117.58618
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3570,7 +3681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 245
     y: 109
-    width: 75.27082
+    width: 74.827576
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3600,12 +3711,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 248
     y: 174
-    width: 72.56323
+    width: 72.068954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 21
-  blockName: Rag
+  blockName: Rug
   description: 
   eventHandler: {fileID: 477116212}
   commandList:
@@ -3671,7 +3782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 333
     y: 177
-    width: 82.49106
+    width: 81.72413
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3693,25 +3804,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 477116186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 897.5076
-    y: 371.1561
-    width: 87.906235
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 40
-  blockName: history
+  itemId: 263
+  indentLevel: 0
+  storyText: I don't have an attic, you know.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 477116234}
-  - {fileID: 477116235}
-  suppressAllAutoSelections: 0
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &477116219
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3728,7 +3838,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 911.3095
     y: 252.11075
-    width: 87.00371
+    width: 85.86206
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3756,7 +3866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 903.0902
     y: 311.50885
-    width: 109.56694
+    width: 107.931015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3781,10 +3891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 1
-  text: NoticeNeutral
+  text: Ask Marie about the eviction notice
   description: 
   targetBlock: {fileID: 477116338}
-  hideIfVisited: 0
+  hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3806,7 +3916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 1
-  text: I noticed some suspicious activity by the tombstone in your front porch
+  text: Ask about tombstone
   description: 
   targetBlock: {fileID: 477116386}
   hideIfVisited: 1
@@ -4149,7 +4259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 542.4876
     y: 201.13919
-    width: 82.49106
+    width: 81.72413
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4178,7 +4288,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 770.13806
     y: 314.07095
-    width: 97.83406
+    width: 96.89653
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4202,7 +4312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  text: Why are you dressed like it's -10 degrees?
+  text: Ask Mare about her wool hat
   description: 
   targetBlock: {fileID: 477116228}
   hideIfVisited: 0
@@ -4227,7 +4337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  text: Cooking
+  text: Ask Marie about the soup
   description: 
   targetBlock: {fileID: 477116229}
   hideIfVisited: 0
@@ -4270,7 +4380,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 545.463
     y: 103.69199
-    width: 81.58853
+    width: 81.72413
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4332,62 +4442,6 @@ MonoBehaviour:
   - {fileID: 477116221}
   - {fileID: 477116240}
   suppressAllAutoSelections: 0
---- !u!114 &477116234
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477116186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 50
-  indentLevel: 0
-  storyText: "You ask Miss Marie about the diary by her bedside that contained information
-    about other family members in the house. \n"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &477116235
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477116186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 49
-  indentLevel: 0
-  storyText: Yes, my ancestors live here too. I haven't been very shy about it dearie.
-    I've been trying to convince that old company for a while. They just won't listen.
-  description: 
-  character: {fileID: 140643727}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &477116236
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4447,7 +4501,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116238
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4459,7 +4513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 200
   indentLevel: 1
-  text: Warn about open windows
+  text: Warn about open window in the bedroom
   description: 
   targetBlock: {fileID: 477116277}
   hideIfVisited: 1
@@ -4472,7 +4526,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &477116239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5409,7 +5463,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 874.78925
     y: 100.83924
-    width: 101.444176
+    width: 101.03447
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5438,7 +5492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 732.8858
     y: 97.50036
-    width: 106.85935
+    width: 105.17239
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6837,7 +6891,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 197
   indentLevel: 0
-  storyText: .....
+  storyText: ....
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -6864,7 +6918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: 'close your windows, woman. Burglars might enter. '
+  storyText: I noticed that your bedroom window was open wide.
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
@@ -6893,17 +6947,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562.7235
     y: 503.42886
-    width: 124.00741
+    width: 121.72411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 129
+  itemId: 228
   blockName: ToySpookyF
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 477116276}
+  - {fileID: 477116428}
+  - {fileID: 477116427}
   - {fileID: 477116275}
+  - {fileID: 477116426}
   - {fileID: 477116244}
   suppressAllAutoSelections: 0
 --- !u!114 &477116278
@@ -7072,7 +7129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 193
   indentLevel: 0
-  storyText: ......
+  storyText: Are you questioning the musical taste of a seasoned festival veteran?
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -7128,17 +7185,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 562.4256
     y: 444.5763
-    width: 129.42258
+    width: 128.62067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 128
+  itemId: 227
   blockName: HMPSpookyF
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 477116280}
   - {fileID: 477116279}
+  - {fileID: 477116425}
+  - {fileID: 477116424}
+  - {fileID: 477116423}
   - {fileID: 477116278}
   suppressAllAutoSelections: 0
 --- !u!114 &477116282
@@ -7346,7 +7406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: ......
+  storyText: Oh dear, I'll die before ragnarok erupts anyway.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -7373,8 +7433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 186
   indentLevel: 0
-  storyText: 'Close your fridge, lady. All that wasted electricity is bad for the
-    environment. '
+  storyText: Pardon me, but you really should close your fridge door.
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
@@ -7403,17 +7462,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 574.4006
     y: 397.257
-    width: 92.418884
+    width: 91.379295
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 82
+  itemId: 226
   blockName: FridgeF
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 477116286}
+  - {fileID: 477116422}
+  - {fileID: 477116421}
   - {fileID: 477116285}
+  - {fileID: 477116420}
   - {fileID: 477116284}
   suppressAllAutoSelections: 0
 --- !u!114 &477116288
@@ -7582,7 +7644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: I have more interesting company than that.
+  storyText: I don't care for TV shows.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -7638,11 +7700,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 577.80396
     y: 349.93765
-    width: 117.689705
+    width: 116.20687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 81
+  itemId: 225
   blockName: TVSpookyF
   description: 
   eventHandler: {fileID: 0}
@@ -7817,9 +7879,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 0
-  storyText: 'Marie says she misses Fifi but believes that he''s still with her. '
+  storyText: To keep my baby dog close, of course.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 140643727}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -7871,13 +7933,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 580.5644
-    y: 294.73175
-    width: 121.29982
+    x: 722.35535
+    y: 199.20934
+    width: 118.96549
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 80
+  itemId: 224
   blockName: TombstoneF
   description: 
   eventHandler: {fileID: 0}
@@ -7901,7 +7963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 1
-  text: Close your fridge, lady.
+  text: Tell Marie she should mind closing the fridge
   description: 
   targetBlock: {fileID: 477116287}
   hideIfVisited: 1
@@ -7940,7 +8002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 174
   indentLevel: 1
-  text: You should have someone look at your TV's satellite reception.
+  text: Tell her she needs to repair her satellite receptor
   description: 
   targetBlock: {fileID: 477116291}
   hideIfVisited: 1
@@ -8314,7 +8376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 1
-  text: 'I believe you now. There''s a ghost '
+  text: I believe you now. There's a ghost here.
   description: 
   targetBlock: {fileID: 477116381}
   hideIfVisited: 1
@@ -9160,7 +9222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 1
-  text: It's very cold in your kitchen. Do you think it's because of a ghost?
+  text: Mention the cold temperature in the kitchen
   description: 
   targetBlock: {fileID: 477116384}
   hideIfVisited: 1
@@ -9442,7 +9504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 154
   indentLevel: 1
-  text: Is it possible that a ghost might be disrupting your TV signal?
+  text: Ask about the white noise in the TV
   description: 
   targetBlock: {fileID: 477116385}
   hideIfVisited: 1
@@ -9724,7 +9786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 151
   indentLevel: 1
-  text: There's a lot of dishes in your sink for one person.
+  text: Mention the dishes in the sink
   description: 
   targetBlock: {fileID: 477116342}
   hideIfVisited: 1
@@ -10288,7 +10350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 1
-  text: Compliment Miss Marie on the 420 rug
+  text: Compliment Miss Marie on her 420 rug
   description: 
   targetBlock: {fileID: 477116350}
   hideIfVisited: 1
@@ -10852,7 +10914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 139
   indentLevel: 1
-  text: Ask about family Pictures
+  text: Ask about family pictures
   description: 
   targetBlock: {fileID: 477116354}
   hideIfVisited: 1
@@ -11108,7 +11170,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116335
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11121,7 +11183,7 @@ MonoBehaviour:
   itemId: 223
   indentLevel: 1
   storyText: But I want to stay here. If there's official proof that the place is
-    haunted they will back off. It's just a check box you have to tick, right..?
+    haunted they will back off.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11136,7 +11198,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11162,7 +11224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 0
-  storyText: I saw a notice on your desk.
+  storyText: I saw a notice on your desk. It was from Big Boi Company.
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
@@ -11191,7 +11253,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 764.6411
     y: 541.62274
-    width: 127.61752
+    width: 128.62067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11203,10 +11265,18 @@ MonoBehaviour:
   - {fileID: 477116337}
   - {fileID: 477116400}
   - {fileID: 477116399}
+  - {fileID: 477116442}
+  - {fileID: 477116441}
+  - {fileID: 477116440}
+  - {fileID: 477116439}
   - {fileID: 477116398}
   - {fileID: 477116355}
   - {fileID: 477116351}
+  - {fileID: 477116438}
+  - {fileID: 477116437}
   - {fileID: 477116335}
+  - {fileID: 477116436}
+  - {fileID: 477116435}
   - {fileID: 477116336}
   suppressAllAutoSelections: 0
 --- !u!114 &477116339
@@ -11429,9 +11499,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 773.2385
-    y: 489.13312
-    width: 115.88464
+    x: 230.61584
+    y: 639.9527
+    width: 116.20687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11446,6 +11516,7 @@ MonoBehaviour:
   - {fileID: 477116339}
   - {fileID: 477116403}
   - {fileID: 477116401}
+  - {fileID: 477116443}
   - {fileID: 477116402}
   suppressAllAutoSelections: 0
 --- !u!114 &477116343
@@ -11668,9 +11739,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 776.85834
-    y: 440.26306
-    width: 112.27453
+    x: 227.67834
+    y: 564.85315
+    width: 113.44826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11909,9 +11980,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 437.85764
+    x: 436.2183
     y: 696.6617
-    width: 113.177055
+    width: 113.44826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11926,7 +11997,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &477116351
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11938,8 +12009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 221
   indentLevel: 1
-  storyText: 'Please. Will you help me? You''ve now seen their viciousness. They''ll
-    do anything to get this property. '
+  storyText: 'So you saw. That''s quite emberrassing. '
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -11966,9 +12036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 110
   indentLevel: 1
-  storyText: 'This house belonged to my family for generations. We great-great-great
-    grandmother built it from scratch. The ground has always been sacred to us. Everyone
-    is buried here. '
+  storyText: You have a good eye, dear. This house belonged to my family for generations.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -11995,9 +12063,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 1
-  storyText: Knobi ask about family Pictures
+  storyText: Nice picture you have hanging up on the living room walls. Are they
+    your relatives?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 228432699}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12022,9 +12091,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 423.59924
+    x: 572.7795
     y: 635.2883
-    width: 136.64282
+    width: 136.89651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12036,14 +12105,21 @@ MonoBehaviour:
   - {fileID: 477116415}
   - {fileID: 477116353}
   - {fileID: 477116352}
+  - {fileID: 477116450}
+  - {fileID: 477116449}
+  - {fileID: 477116448}
   - {fileID: 477116413}
+  - {fileID: 477116447}
   - {fileID: 477116414}
+  - {fileID: 477116446}
   - {fileID: 477116412}
+  - {fileID: 477116445}
+  - {fileID: 477116444}
   - {fileID: 477116411}
   suppressAllAutoSelections: 0
 --- !u!114 &477116355
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12353,9 +12429,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 400.9473
-    y: 564.0953
-    width: 128.52005
+    x: 223.89822
+    y: 493.60352
+    width: 128.62067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12740,7 +12816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: Oh, you do?
+  storyText: 'Oh, did you? That''s funny. '
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -12767,7 +12843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  storyText: ' I believe you now. There''s a ghost.'
+  storyText: I heard stomping coming from the attic.
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
@@ -12946,7 +13022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: ~~
+  storyText: I'd say that's a fair assessment.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -12973,7 +13049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: 'There''s a ghost in your bedroom? '
+  storyText: You know, as I walked over the landing upstairs, I heard a thump coming
+    from your bedroom.
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
@@ -13152,7 +13229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: ~
+  storyText: Oh yes, and to celebrate the power of music. Melodica's show in 1978,
+    I remember it like it was yesterday...
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -13358,7 +13436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: 'Oh, I don''t think that. I know that. '
+  storyText: 'Oh, I don''t think that. I {i}know{/i} that. '
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -13564,7 +13642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: Many people watch TV as entertainment.
+  storyText: Since my mother died, watching TV just hasn't been the same. I find
+    the white noise comforting, it reminds me of her.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -13770,9 +13849,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: Marie talks about Fifi
+  storyText: 'It''s in memory of my dear dog, Fifi. This family has always had a
+    dog. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 140643727}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -13826,7 +13906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 762.71295
     y: 608.20905
-    width: 128.52005
+    width: 128.62067
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13855,7 +13935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 771.20886
     y: 669.88715
-    width: 103.24924
+    width: 101.03447
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13866,6 +13946,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 477116364}
   - {fileID: 477116363}
+  - {fileID: 477116218}
   - {fileID: 477116362}
   suppressAllAutoSelections: 0
 --- !u!114 &477116382
@@ -13884,7 +13965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 423.16574
     y: 496.20816
-    width: 116.78717
+    width: 114.82756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13894,7 +13975,13 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 477116367}
+  - {fileID: 477116434}
+  - {fileID: 477116433}
   - {fileID: 477116366}
+  - {fileID: 477116432}
+  - {fileID: 477116431}
+  - {fileID: 477116430}
+  - {fileID: 477116429}
   - {fileID: 477116365}
   suppressAllAutoSelections: 0
 --- !u!114 &477116383
@@ -13913,7 +14000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 430.23273
     y: 440.68207
-    width: 122.20235
+    width: 121.72411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13924,6 +14011,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 477116370}
   - {fileID: 477116369}
+  - {fileID: 477116419}
+  - {fileID: 477116418}
+  - {fileID: 477116417}
   - {fileID: 477116368}
   suppressAllAutoSelections: 0
 --- !u!114 &477116384
@@ -13942,7 +14032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 432.25018
     y: 395.9712
-    width: 129.42258
+    width: 127.24135
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13971,7 +14061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 455.98358
     y: 349.7604
-    width: 110.46947
+    width: 109.31032
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13998,9 +14088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 416.67627
-    y: 295.30905
-    width: 158.30353
+    x: 291.30325
+    y: 293.8165
+    width: 154.82755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14180,7 +14270,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &477116398
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14332,7 +14422,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116399
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14344,8 +14434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 1
-  storyText: I'd rather sell my soul than sell this house. Also..Why are you snooping
-    around through my private mail? Surely there's no ghost there.
+  storyText: Why are you snooping around through my private mail? Surely there's
+    no ghost there.
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -14360,7 +14450,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116400
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14603,7 +14693,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116401
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14615,8 +14705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 216
   indentLevel: 1
-  storyText: Well, I like to be a good hostess. You never know when family pops up
-    for dinner unannounced. There's a lot of them keeping me company here.
+  storyText: 'Well, I like to be a good hostess. You never know when family pops
+    up for dinner unannounced. '
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -14631,7 +14721,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116402
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14645,7 +14735,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &477116403
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14888,7 +14978,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116404
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -14902,7 +14992,7 @@ MonoBehaviour:
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
-  - compareOperator: 3
+  - compareOperator: 2
     anyVar:
       variable: {fileID: 477116272}
       data:
@@ -15131,7 +15221,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116405
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15145,7 +15235,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &477116406
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15297,7 +15387,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116407
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15324,7 +15414,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116408
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15567,7 +15657,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116409
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15594,7 +15684,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116410
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15621,7 +15711,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116411
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15635,7 +15725,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &477116412
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15647,9 +15737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 1
-  storyText: This house belonged to my family for generations. We great-great-great
-    grandmother built it from scratch. The ground has always been sacred to us. Everyone
-    is buried here. I was born here and I intend to die here, too.
+  storyText: 'Yes. This house belonged to my family for generations. '
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -15664,7 +15752,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116413
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15677,8 +15765,7 @@ MonoBehaviour:
   itemId: 204
   indentLevel: 1
   storyText: I don't ask for favors often, inspector. But is there any way you could
-    let me live out my days here? It would be an immense dishonor to my family's
-    legacy if I were to lose the house.
+    let me live out my days here?
   description: 
   character: {fileID: 140643727}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -15693,7 +15780,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &477116414
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15707,7 +15794,7 @@ MonoBehaviour:
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
-  - compareOperator: 2
+  - compareOperator: 4
     anyVar:
       variable: {fileID: 477116272}
       data:
@@ -15936,7 +16023,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116415
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15950,7 +16037,7 @@ MonoBehaviour:
   indentLevel: 0
   anyOrAllConditions: 0
   conditions:
-  - compareOperator: 4
+  - compareOperator: 5
     anyVar:
       variable: {fileID: 477116272}
       data:
@@ -16179,7 +16266,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &477116416
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16191,10 +16278,939 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  storyText: nah I don't believe it.
+  storyText: Sounds to me like you're doing all you can to make it look like there's
+    a ghost where there in reality isn't one...
   description: 
   character: {fileID: 228432699}
   portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116417
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 234
+  indentLevel: 0
+  storyText: I would recommend it to anyone.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116418
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 233
+  indentLevel: 0
+  storyText: That must have been quite the experience.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116419
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 232
+  indentLevel: 0
+  storyText: I went there with my father, you know. Such a young girl I was. Seeing
+    all these long-haired men, it was truly life changing.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116420
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 231
+  indentLevel: 0
+  storyText: 'to self: that''s very...edgy.'
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116421
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  storyText: 'And all that wasted electricity is bad for the environment. '
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116422
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 229
+  indentLevel: 0
+  storyText: It's bringing down the temperature of the entire room.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116423
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 237
+  indentLevel: 0
+  storyText: You wouldn't understand.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116424
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 236
+  indentLevel: 0
+  storyText: 'Just like anything good in life, music is an acquired taste. '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116425
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 235
+  indentLevel: 0
+  storyText: Well.. I just.. it kind of stands out.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116426
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 0
+  storyText: I told mother to look after the windows...
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116427
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 245
+  indentLevel: 0
+  storyText: It's a free for all for people with bad intentions.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116428
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 244
+  indentLevel: 0
+  storyText: That's very dangerous, you know. Especiallky for an, eh, elderly woman
+    living alone.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 0
+  storyText: I should ask him sometime.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116430
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  storyText: 'I think it was my great-great grandfather obtained him. '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  storyText: Oh, hun. I couldn't tell you even if I wanted to. We share everything
+    in this house.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 240
+  indentLevel: 0
+  storyText: Who does the plushie belong to?
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116433
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 239
+  indentLevel: 0
+  storyText: 'I think it might have been knocked over by a ghost. What do you say? '
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116434
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 238
+  indentLevel: 0
+  storyText: I walked in and a huge plushie was sprawled out across the floor.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116435
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 1
+  storyText: 'Please, will you help me? '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116436
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 1
+  storyText: ' It''s just a check box you have to tick, right..?'
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116437
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 1
+  storyText: They'll do anything to get their hands on this land.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 1
+  storyText: They're vicious, aren't they? I've told them I will never leave. Asked
+    them to find another place to build their appartment tower. But they insist.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 258
+  indentLevel: 1
+  storyText: I will never leave.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 257
+  indentLevel: 1
+  storyText: 'I''d rather sell my soul than sell this house. It contains my whole
+    life, and that of everyone dear to me. '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 1
+  storyText: 'But if you must know why I haven''t replied to them at all... Here''s
+    why:'
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116442
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 1
+  storyText: I...You're right. It's none of my business.
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116443
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 254
+  indentLevel: 1
+  storyText: There's a lot of them keeping me company here.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 253
+  indentLevel: 1
+  storyText: I was born here and I intend to die here, too.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116445
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 252
+  indentLevel: 1
+  storyText: 'My great-great-great grandparents built it from scratch. The ground
+    has always been sacred to us. Everyone is buried here. '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116446
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 251
+  indentLevel: 1
+  storyText: That your family in the pictures in the living room?
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116447
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 250
+  indentLevel: 1
+  storyText: It would be an immense dishonor to my family's legacy if I were to lose
+    the house.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116448
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 249
+  indentLevel: 1
+  storyText: ....
+  description: 
+  character: {fileID: 228432699}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116449
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 1
+  storyText: The whole family's buried in the backyard. And the dogs in the front.
+    Standing guard.
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &477116450
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477116186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 247
+  indentLevel: 1
+  storyText: 'My great-great-great grandparents built it from scratch. The ground
+    has always been sacred to us. '
+  description: 
+  character: {fileID: 140643727}
+  portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
