@@ -252,11 +252,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.24, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
+    oldSize: {x: 2, y: 1.71}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -304,8 +304,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 58c777ec06fe748e8bd90934622c855f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -323,13 +323,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226389727}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.12, y: -3.82, z: 0}
+  m_LocalRotation: {x: 0.010442565, y: -0.0033217112, z: 0.008934346, w: 0.99990004}
+  m_LocalPosition: {x: 6.53, y: -3.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.2, y: -0.37, z: 1.02}
 --- !u!1 &622361944
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 210.86502
     y: 114.96126
-    width: 109.68192
+    width: 110.36013
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -731,7 +731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 435.53903
     y: 3.7687702
-    width: 102.086044
+    width: 102.22168
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.76044
     y: 32.355564
-    width: 123.78856
+    width: 122.567795
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 7.72653, y: 74.45003}
+  scrollPos: {x: 291.58353, y: 109.18504}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -827,7 +827,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 622361947}
+  - {fileID: 622361953}
   selectedCommands: []
   variables:
   - {fileID: 622361950}
@@ -989,7 +989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.81567
     y: 175.95233
-    width: 97.745544
+    width: 99.508865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &622361983
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1625,7 +1625,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 580.3971
     y: 24.338104
-    width: 211.68376
+    width: 210.73428
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1658,7 +1658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 386.86334
     y: 92.5802
-    width: 170.44897
+    width: 170.04205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3930,7 +3930,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.6568
     y: 264.14722
-    width: 140.06544
+    width: 140.8793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3966,7 +3966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 357.54837
     y: 257.41324
-    width: 134.63982
+    width: 134.77545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3999,7 +3999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.81375
     y: 151.97025
-    width: 124.87369
+    width: 123.9242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4097,7 +4097,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362022
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4125,7 +4125,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362023
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4152,7 +4152,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362024
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4179,7 +4179,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362025
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4206,7 +4206,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362026
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4535,7 +4535,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &622362035
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4562,7 +4562,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &622362036
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4814,7 +4814,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e6b0aa355a98e4ed286aba37f26f8ad8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9dd9d31c881374892979fd431a9aae2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4833,7 +4833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303136413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3802, y: 0.1089, z: 0}
+  m_LocalPosition: {x: 0.3802, y: 0.16, z: 0}
   m_LocalScale: {x: 0.39920196, y: 0.36685145, z: 0.35472}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4902,7 +4902,7 @@ GameObject:
   - component: {fileID: 1995496441}
   - component: {fileID: 1995496440}
   m_Layer: 0
-  m_Name: ClickableSprite
+  m_Name: BR_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4940,7 +4940,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 3}
+    oldSize: {x: 10.44, y: 15.99}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4988,8 +4988,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 02a23a8f2f5524427bbd110d7b675fa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5008,8 +5008,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995496439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.79, y: 1.55, z: 0}
-  m_LocalScale: {x: 1.1467, y: 1.7599, z: 1}
+  m_LocalPosition: {x: 1.22, y: 1.39, z: 0}
+  m_LocalScale: {x: 0.37576, y: 0.37576, z: 0.37576}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
