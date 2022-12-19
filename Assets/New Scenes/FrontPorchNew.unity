@@ -3580,6 +3580,7 @@ GameObject:
   - component: {fileID: 1398637098}
   - component: {fileID: 1398637097}
   - component: {fileID: 1398637095}
+  - component: {fileID: 1398637084}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3600,11 +3601,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 49.704895, y: 224.74893}
+  scrollPos: {x: -495.07816, y: 224.86871}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3612,9 +3613,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398637031}
+  - {fileID: 1398637101}
   selectedCommands:
-  - {fileID: 1398637069}
+  - {fileID: 1398637099}
   variables:
   - {fileID: 1398637054}
   - {fileID: 1398637053}
@@ -3671,7 +3672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163.8364
     y: -108.47899
-    width: 133
+    width: 134.36357
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3736,7 +3737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -5.9396133
     y: -100.67869
-    width: 111
+    width: 112.54541
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3916,7 +3917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.64218
     y: 160.03635
-    width: 105
+    width: 106.727234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3949,7 +3950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.1761
     y: -119.24893
-    width: 77
+    width: 77.636345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4033,7 +4034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 627.3868
     y: 91.75089
-    width: 143
+    width: 144.54538
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4290,7 +4291,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.18127
     y: 165.32895
-    width: 148
+    width: 151.8181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4378,7 +4379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 641.4913
     y: -132.5226
-    width: 150
+    width: 153.27264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6953,7 +6954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 29.282623
     y: -1.1302032
-    width: 139
+    width: 141.63629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7048,7 +7049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.5055
     y: -203.70425
-    width: 113
+    width: 115.45449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7117,7 +7118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: 'But before we go in, better see if you equipment works. '
+  storyText: 'But before we go in, better see if your equipment works. '
   description: 
   character: {fileID: 612903303}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -7157,6 +7158,33 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1398637084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398637017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  storyText: Now, let's test the pendulum.
+  description: 
+  character: {fileID: 612903303}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1398637085
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7173,7 +7201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 897.6756
     y: 19.182026
-    width: 140
+    width: 143.09084
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7345,7 +7373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 893.3907
     y: -187.1611
-    width: 123
+    width: 124.18176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7450,7 +7478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 697.09467
     y: 329.72278
-    width: 131
+    width: 134.36357
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7517,8 +7545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: That's not a bee...{wait = 0.5] but at least you got the camera to work.
-    I guess I can't expect too much. Now, let's test the pendulum
+  storyText: That's not a bee...{wait = 0.5} but at least you got the camera to work.
+    I guess I can't expect too much.
   description: 
   character: {fileID: 612903303}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -7575,7 +7603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 784.50726
     y: 182.42812
-    width: 111
+    width: 113.999954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7585,6 +7613,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1398637099}
+  - {fileID: 1398637084}
   - {fileID: 1398637097}
   suppressAllAutoSelections: 0
 --- !u!114 &1398637102
@@ -7603,7 +7632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 632.7833
     y: 182.42813
-    width: 112
+    width: 115.45449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
