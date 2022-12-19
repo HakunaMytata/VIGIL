@@ -375,11 +375,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 148.4922, y: 138.20932}
+  scrollPos: {x: -207.82843, y: 31.52893}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 281.25
-  zoom: 0.6400002
+  blockViewHeight: 445
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -387,9 +387,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 59723612}
+  - {fileID: 59723608}
   selectedCommands:
-  - {fileID: 59723729}
+  - {fileID: 59723606}
   variables:
   - {fileID: 59723615}
   - {fileID: 59723626}
@@ -455,7 +455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.231384
     y: 35.665794
-    width: 76.24999
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -574,7 +574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.0375
     y: 33.699226
-    width: 93.749985
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -611,7 +611,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 131
-    width: 153.74997
+    width: 151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: UpstairsK
+    stringVal: Kitchen
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &59723604
@@ -832,14 +832,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 730.71906
-    y: 136.40857
-    width: 101.249985
+    x: 727.59406
+    y: 50.47107
+    width: 93
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 17
-  blockName: Bedroom
+  blockName: Kitchen
   description: 
   eventHandler: {fileID: 59723605}
   commandList:
@@ -877,7 +877,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Upstair
+    stringVal: Upstairs
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &59723607
@@ -912,7 +912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.3061
     y: 10.234566
-    width: 96.249985
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1009,7 +1009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.71027
     y: 169.46486
-    width: 64.99999
+    width: 66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1063,7 +1063,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.34756
     y: 75.82706
-    width: 76.24999
+    width: 76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1588,7 +1588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588.63916
     y: 84.756165
-    width: 96.249985
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2947,7 +2947,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 769.9166
     y: 215.64145
-    width: 117.49998
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3537,7 +3537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 547.9764
     y: 320.97598
-    width: 94.999985
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3694,7 +3694,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 388.51263
     y: 307.68338
-    width: 119.99997
+    width: 118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3750,7 +3750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 577.07184
     y: 239.12909
-    width: 122.49997
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3783,7 +3783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407.69098
     y: 221.21384
-    width: 122.49997
+    width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3888,7 +3888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 201.51505
     y: 223.37143
-    width: 98.749985
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4018,7 +4018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -74.42771
     y: 322.68817
-    width: 169.99995
+    width: 164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4684,7 +4684,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -272.48895
     y: 290.75177
-    width: 152.49997
+    width: 149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4847,7 +4847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -25.363003
     y: 223.91331
-    width: 139.99997
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4881,7 +4881,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 133.26523
     y: 420.60196
-    width: 147.49997
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7276,7 +7276,7 @@ MonoBehaviour:
     can go.
 --- !u!114 &59723729
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7293,7 +7293,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &59723730
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7310,7 +7310,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &59723731
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7327,7 +7327,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &59723732
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7504,7 +7504,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 3.2994738, y: 1.1548147}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7515,7 +7515,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 9.598948, y: 29.72574}
   m_EdgeRadius: 0
 --- !u!212 &332546395
 SpriteRenderer:
@@ -8623,7 +8623,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.19982123, y: 0.15180683}
+  m_Offset: {x: 0.6204858, y: 0.15180683}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8634,7 +8634,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.830488, y: 12.417082}
+  m_Size: {x: 9.671817, y: 12.417082}
   m_EdgeRadius: 0
 --- !u!212 &727520382
 SpriteRenderer:
@@ -8675,7 +8675,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a5239fda1a0a947ef87b260257d56e84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9504,7 +9504,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &1237905897
 RectTransform:
@@ -10614,7 +10614,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &1713097419
 RectTransform:
@@ -11140,7 +11140,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.240245, y: -0.9447472}
+  m_Offset: {x: -8.231228, y: -2.1835837}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11151,7 +11151,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6727886, y: 2.9374285}
+  m_Size: {x: 3.8849945, y: 7.892768}
   m_EdgeRadius: 0
 --- !u!114 &1893500671
 MonoBehaviour:
@@ -11181,7 +11181,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 4.1147027, y: 0.8848821}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11192,7 +11192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 4.504299, y: 7.601387}
   m_EdgeRadius: 0
 --- !u!212 &1893500673
 SpriteRenderer:
