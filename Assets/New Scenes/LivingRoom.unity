@@ -355,6 +355,15 @@ GameObject:
   - component: {fileID: 59723730}
   - component: {fileID: 59723731}
   - component: {fileID: 59723729}
+  - component: {fileID: 59723741}
+  - component: {fileID: 59723740}
+  - component: {fileID: 59723739}
+  - component: {fileID: 59723738}
+  - component: {fileID: 59723737}
+  - component: {fileID: 59723736}
+  - component: {fileID: 59723735}
+  - component: {fileID: 59723734}
+  - component: {fileID: 59723733}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -375,21 +384,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -207.82843, y: 31.52893}
+  scrollPos: {x: 360.43106, y: 39.045635}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 445
-  zoom: 1
+  zoom: 0.45999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 59723608}
-  selectedCommands:
-  - {fileID: 59723606}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 59723615}
   - {fileID: 59723626}
@@ -455,7 +462,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.231384
     y: 35.665794
-    width: 77
+    width: 76.08696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -574,7 +581,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.0375
     y: 33.699226
-    width: 94
+    width: 93.47826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -611,7 +618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 131
-    width: 151
+    width: 149.13043
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -834,7 +841,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 727.59406
     y: 50.47107
-    width: 93
+    width: 93.47826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -912,7 +919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.3061
     y: 10.234566
-    width: 96
+    width: 93.47826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1009,7 +1016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.71027
     y: 169.46486
-    width: 66
+    width: 67.391304
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1063,7 +1070,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.34756
     y: 75.82706
-    width: 76
+    width: 76.08696
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1588,7 +1595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588.63916
     y: 84.756165
-    width: 96
+    width: 95.21739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2947,7 +2954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 769.9166
     y: 215.64145
-    width: 117
+    width: 117.82609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3537,7 +3544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 547.9764
     y: 320.97598
-    width: 96
+    width: 96.95653
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3694,7 +3701,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 388.51263
     y: 307.68338
-    width: 118
+    width: 117.82609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3750,7 +3757,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 577.07184
     y: 239.12909
-    width: 122
+    width: 124.78261
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3783,7 +3790,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407.69098
     y: 221.21384
-    width: 122
+    width: 123.04348
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3888,7 +3895,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 201.51505
     y: 223.37143
-    width: 100
+    width: 102.17392
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3987,9 +3994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: Looks you don't have enough evidence to make up a definitive verdict.
-    You should try to record that chandelier again, but maybe leave the hallway once
-    you press record? Ghosts don't like snoopers.
+  storyText: 'Looks you don''t have enough evidence to make up a definitive verdict. '
   description: 
   character: {fileID: 382742364}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -4016,9 +4021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -74.42771
-    y: 322.68817
-    width: 164
+    x: -72.2538
+    y: 372.6882
+    width: 163.04349
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4028,6 +4033,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 59723668}
+  - {fileID: 59723737}
   - {fileID: 59723670}
   suppressAllAutoSelections: 0
 --- !u!114 &59723670
@@ -4196,10 +4202,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 101
   indentLevel: 0
-  storyText: Big Boi doesn't build on the premise since it's against city law. The
-    property stays in possession of Miss Marie's family, and she gets to stay in
-    the house until she dies, even though there are many people in dire need of housing.
-    Boss is not happy as you've lost them a client.
+  storyText: "EPILOGUE \n\nBig Boi doesn't build on the premise since it's against
+    city law. The property stays in possession of Miss Marie's family, and she gets
+    to stay in the house until she dies."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4226,8 +4231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: 'Well, that is undeniable proof. Alright, good job Knobi. The boss won''t
-    be happy, but we did our job as objective researchers. '
+  storyText: 'Well, that is undeniable proof. '
   description: 
   character: {fileID: 382742364}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -4630,7 +4634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 92
   indentLevel: 0
-  storyText: 'Yes, there is a ghost. '
+  storyText: Yes, there is a ghost here.
   description: 
   character: {fileID: 1836817569}
   portrait: {fileID: 0}
@@ -4684,7 +4688,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -272.48895
     y: 290.75177
-    width: 149
+    width: 149.13043
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4695,7 +4699,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 59723673}
   - {fileID: 59723672}
+  - {fileID: 59723736}
   - {fileID: 59723671}
+  - {fileID: 59723735}
+  - {fileID: 59723734}
+  - {fileID: 59723733}
   suppressAllAutoSelections: 0
 --- !u!114 &59723683
 MonoBehaviour:
@@ -4711,14 +4719,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  storyText: 'EPILOGUE
-
-    Miss Marie gets kicked out of the house, it''s bulldozed
-    and Big Boi firm builds a new apartment complex. Boss is happy and Knobi is now
-    an official Lead Investigator.
-
-
-    THE END. '
+  storyText: "EPILOGUE\nIt's like Marie said when you walked into the living room.
+    Who believes an old lady these days? \n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4847,7 +4849,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -25.363003
     y: 223.91331
-    width: 139
+    width: 138.69565
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4881,7 +4883,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 133.26523
     y: 420.60196
-    width: 146
+    width: 145.65218
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4891,6 +4893,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 59723683}
+  - {fileID: 59723739}
+  - {fileID: 59723738}
+  - {fileID: 59723741}
+  - {fileID: 59723740}
   suppressAllAutoSelections: 0
 --- !u!114 &59723690
 MonoBehaviour:
@@ -7342,6 +7348,256 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: a3bf5d9348f719e41bca93007b93a8ca, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &59723733
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  storyText: THE END
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723734
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 148
+  indentLevel: 0
+  storyText: Among those people is your boss. He is not happy as you've lost VIGIL
+    a client, and him a lot of money.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723735
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  storyText: You've helped an old lady in need. However, there are many people in
+    dire need of housing. Many people could have lived here. A few people could have
+    made billions.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723736
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  storyText: 'Good job Knobi. The boss won''t be happy, but we did our job as researchers. '
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723737
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 0
+  storyText: You should try to record that chandelier again, but maybe leave the
+    hallway once you press record? Ghosts don't like snoopers.
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723738
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  storyText: 'She cried and wept, but her family home was bulldozed by Big Boi Company,
+    who built a new apartment tower in its stead. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723739
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  storyText: 'Miss Marie gets kicked out of the house and is put in a care home for
+    the elderly. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723740
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  storyText: 'THE END. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723741
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  storyText: Congratulations. Your boss is happy and Knobi is now an official Lead
+    Investigator.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &182155479
 GameObject:
   m_ObjectHideFlags: 0
