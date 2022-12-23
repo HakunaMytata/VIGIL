@@ -829,9 +829,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 622361953}
+  - {fileID: 622361988}
   selectedCommands:
-  - {fileID: 622361958}
+  - {fileID: 622361978}
   variables:
   - {fileID: 622361950}
   - {fileID: 622361949}
@@ -871,7 +871,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &622361958
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3984,7 +3984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 357.54837
+    x: 356.19196
     y: 257.41324
     width: 134.63982
     height: 40
@@ -4029,8 +4029,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 622362015}
-  - {fileID: 622362014}
   - {fileID: 622362013}
+  - {fileID: 622362014}
   - {fileID: 622362011}
   suppressAllAutoSelections: 0
 --- !u!114 &622362019
