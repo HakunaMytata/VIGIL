@@ -200,7 +200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
-  useEventSystem: 0
+  useEventSystem: 1
 --- !u!61 &1076966669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
-  useEventSystem: 0
+  useEventSystem: 1
 --- !u!61 &1291470564
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -411,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291470562}
   m_LocalRotation: {x: 0.008512243, y: 0.01018961, z: 0.6410559, w: 0.7673794}
-  m_LocalPosition: {x: -1.19, y: -2.52, z: 0}
+  m_LocalPosition: {x: -0.41, y: -2.4, z: 0}
   m_LocalScale: {x: 0.7033, y: 0.6974, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 1337657470}
   - component: {fileID: 1337657469}
   - component: {fileID: 1337657468}
+  - component: {fileID: 1337657471}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -500,6 +501,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1337657471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337657467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1357565300
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +530,7 @@ GameObject:
   - component: {fileID: 1357565302}
   - component: {fileID: 1357565301}
   m_Layer: 0
-  m_Name: Bedside
+  m_Name: Notice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,7 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
-  useEventSystem: 0
+  useEventSystem: 1
 --- !u!61 &1357565302
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -619,7 +636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357565300}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 2.24, z: 0}
+  m_LocalPosition: {x: -3.17, y: 1.24, z: 0}
   m_LocalScale: {x: 0.6042213, y: 0.7050012, z: 0.5331}
   m_Children: []
   m_Father: {fileID: 0}
@@ -658,7 +675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
-  useEventSystem: 0
+  useEventSystem: 1
 --- !u!61 &1469232370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -918,6 +935,7 @@ GameObject:
   - component: {fileID: 1692401338}
   - component: {fileID: 1692401337}
   - component: {fileID: 1692401336}
+  - component: {fileID: 1692401339}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -995,9 +1013,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1692401292}
-  selectedCommands:
-  - {fileID: 1692401281}
+  - {fileID: 1692401321}
+  selectedCommands: []
   variables:
   - {fileID: 1692401271}
   - {fileID: 1692401270}
@@ -1577,7 +1594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'I don''t think I want to rummage through Marie''s bedside table...
+  storyText: 'Socks, underwear....
 
 '
   description: 
@@ -1667,7 +1684,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 658.5938
-    y: -105.33187
+    y: -106.3957
     width: 93.40425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1677,8 +1694,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1692401274}
   commandList:
-  - {fileID: 1692401330}
   - {fileID: 1692401273}
+  - {fileID: 1692401330}
+  - {fileID: 1692401339}
   - {fileID: 1692401267}
   suppressAllAutoSelections: 0
 --- !u!114 &1692401278
@@ -4952,7 +4970,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1692401336
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4979,7 +4997,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1692401337
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5006,7 +5024,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1692401338
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5019,6 +5037,33 @@ MonoBehaviour:
   itemId: 61
   indentLevel: 0
   storyText: I know metalheads use it fondly. But the shape is almost satanic.
+  description: 
+  character: {fileID: 1812308985}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1692401339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692401260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  storyText: You know, don't think I want to rummage through Marie's dresser...
   description: 
   character: {fileID: 1812308985}
   portrait: {fileID: 0}
@@ -5063,8 +5108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
+  useEventSystem: 1
 --- !u!61 &1746091314
 BoxCollider2D:
   m_ObjectHideFlags: 0

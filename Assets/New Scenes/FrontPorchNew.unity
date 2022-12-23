@@ -1494,7 +1494,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.13821507, y: 0.20900726}
+  m_Offset: {x: 0.00885582, y: -0.023975372}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1505,7 +1505,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.107563, y: 8.131336}
+  m_Size: {x: 20.341953, y: 11.223637}
   m_EdgeRadius: 0
 --- !u!114 &557611518
 MonoBehaviour:
@@ -1833,8 +1833,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
+  useEventSystem: 1
 --- !u!61 &653925563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1900,7 +1900,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 3238dca1e9ea9fb4aa64b28298ba6dbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1920,8 +1920,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653925561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.29, y: 0.85, z: 91.59}
-  m_LocalScale: {x: 0.57434, y: 0.57434, z: 0.57434}
+  m_LocalPosition: {x: 4.1683, y: 0.87976, z: 91.59}
+  m_LocalScale: {x: 0.680076, y: 0.8671649, z: 0.680076}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -2087,6 +2087,7 @@ GameObject:
   - component: {fileID: 697522245}
   - component: {fileID: 697522244}
   - component: {fileID: 697522243}
+  - component: {fileID: 697522246}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2159,6 +2160,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &697522246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697522242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &789686177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,8 +3412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
+  useEventSystem: 1
 --- !u!212 &1387059988
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3623,6 +3640,7 @@ GameObject:
   - component: {fileID: 1398637143}
   - component: {fileID: 1398637142}
   - component: {fileID: 1398637144}
+  - component: {fileID: 1398637145}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3643,7 +3661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -54.473217, y: 373.17462}
+  scrollPos: {x: 263.81937, y: 413.41855}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3655,9 +3673,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398637096}
+  - {fileID: 1398637118}
   selectedCommands:
-  - {fileID: 1398637144}
+  - {fileID: 1398637116}
   variables:
   - {fileID: 1398637054}
   - {fileID: 1398637053}
@@ -4080,8 +4098,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1283.7974
-    y: 163.06796
+    x: 1380.1375
+    y: 388.67783
     width: 140.73169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7891,7 +7909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  anyOrAllConditions: 0
+  anyOrAllConditions: 1
   conditions:
   - compareOperator: 0
     anyVar:
@@ -8286,7 +8304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  storyText: ' "It''s nearly 4:20, we''re gonna be late. Let''s ring the doorbell."'
+  storyText: ' "It''s nearly 4:20, we''re gonna be late. Let''s go inside."'
   description: 
   character: {fileID: 612903303}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -8351,6 +8369,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1398637116}
   - {fileID: 1398637115}
+  - {fileID: 1398637145}
   - {fileID: 1398637140}
   suppressAllAutoSelections: 0
 --- !u!114 &1398637119
@@ -9686,7 +9705,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1398637142
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9838,7 +9857,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1398637143
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9990,7 +10009,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1398637144
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10016,6 +10035,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1398637145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398637017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!1 &1411270055
 GameObject:
   m_ObjectHideFlags: 0
@@ -10171,7 +10208,7 @@ GameObject:
   - component: {fileID: 1445884871}
   - component: {fileID: 1445884870}
   m_Layer: 0
-  m_Name: MissB
+  m_Name: MissB_clickabe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10190,8 +10227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
+  useEventSystem: 1
 --- !u!61 &1445884871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10205,7 +10242,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.9740372, y: 0.57954884}
+  m_Offset: {x: 1.4591117, y: 1.1680355}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10216,7 +10253,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.205925, y: 29.38209}
+  m_Size: {x: 9.70485, y: 25.262676}
   m_EdgeRadius: 0
 --- !u!212 &1445884872
 SpriteRenderer:
@@ -10686,6 +10723,7 @@ GameObject:
   - component: {fileID: 1717391705}
   - component: {fileID: 1717391704}
   - component: {fileID: 1717391703}
+  - component: {fileID: 1717391708}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -10794,6 +10832,32 @@ RectTransform:
   m_AnchoredPosition: {x: -750.0001, y: 0}
   m_SizeDelta: {x: 1500, y: 335}
   m_Pivot: {x: 0, y: 0}
+--- !u!61 &1717391708
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717391702}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 745.88245, y: 606.8608}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2137.2834, y: 1212.7216}
+  m_EdgeRadius: 0
 --- !u!1 &1743062309
 GameObject:
   m_ObjectHideFlags: 0
@@ -11149,8 +11213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
+  useEventSystem: 1
 --- !u!61 &1897824043
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11164,7 +11228,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.406699, y: -3.306151}
+  m_Offset: {x: 6.61467, y: -3.4051056}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11175,7 +11239,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.774048, y: 2.5950413}
+  m_Size: {x: 3.3581066, y: 2.3971322}
   m_EdgeRadius: 0
 --- !u!212 &1897824044
 SpriteRenderer:
