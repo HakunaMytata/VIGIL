@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 1076966669}
   - component: {fileID: 1076966668}
   m_Layer: 0
-  m_Name: Table
+  m_Name: dresser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076966667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.55, y: 0.92, z: 0}
+  m_LocalPosition: {x: -0.89, y: 0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -616,7 +616,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c373730dfbb7e43aba577c3a081855de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -869,12 +869,9 @@ GameObject:
   - component: {fileID: 1692401273}
   - component: {fileID: 1692401272}
   - component: {fileID: 1692401271}
-  - component: {fileID: 1692401270}
-  - component: {fileID: 1692401269}
   - component: {fileID: 1692401268}
   - component: {fileID: 1692401267}
   - component: {fileID: 1692401266}
-  - component: {fileID: 1692401265}
   - component: {fileID: 1692401280}
   - component: {fileID: 1692401284}
   - component: {fileID: 1692401283}
@@ -916,11 +913,9 @@ GameObject:
   - component: {fileID: 1692401288}
   - component: {fileID: 1692401287}
   - component: {fileID: 1692401286}
-  - component: {fileID: 1692401285}
   - component: {fileID: 1692401329}
   - component: {fileID: 1692401328}
   - component: {fileID: 1692401327}
-  - component: {fileID: 1692401326}
   - component: {fileID: 1692401325}
   - component: {fileID: 1692401324}
   - component: {fileID: 1692401323}
@@ -936,6 +931,13 @@ GameObject:
   - component: {fileID: 1692401337}
   - component: {fileID: 1692401336}
   - component: {fileID: 1692401339}
+  - component: {fileID: 1692401341}
+  - component: {fileID: 1692401340}
+  - component: {fileID: 1692401326}
+  - component: {fileID: 1692401285}
+  - component: {fileID: 1692401270}
+  - component: {fileID: 1692401269}
+  - component: {fileID: 1692401265}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1013,18 +1015,18 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1692401321}
+  - {fileID: 1692401277}
   selectedCommands: []
   variables:
   - {fileID: 1692401271}
-  - {fileID: 1692401270}
-  - {fileID: 1692401269}
   - {fileID: 1692401268}
-  - {fileID: 1692401265}
   - {fileID: 1692401280}
   - {fileID: 1692401308}
-  - {fileID: 1692401285}
   - {fileID: 1692401333}
+  - {fileID: 1692401341}
+  - {fileID: 1692401340}
+  - {fileID: 1692401285}
+  - {fileID: 1692401270}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1058,12 +1060,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692401260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 2
-  key: ToySpooky
-  value: 0
+  itemId: 67
+  indentLevel: 1
+  storyText: And all that talk about ghosts? Seems a bit loopy to me.
+  description: 
+  character: {fileID: 1812308985}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1692401266
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1079,7 +1093,7 @@ MonoBehaviour:
   itemId: 8
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1692401265}
+    variable: {fileID: 1692401271}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -1392,12 +1406,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692401260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 2
-  key: FridgeSpooky
-  value: 0
+  itemId: 66
+  indentLevel: 1
+  storyText: A window wide open in the bedroom, the door of the fridge hanging on
+    its hinges downstairs...
+  description: 
+  character: {fileID: 1812308985}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1692401270
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1407,10 +1434,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692401260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 2
+  scope: 0
   key: TVSpooky
   value: 0
 --- !u!114 &1692401271
@@ -1623,7 +1650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1692401277}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1357565301}
+  clickableObject: {fileID: 1076966668}
   waitFrames: 1
 --- !u!114 &1692401275
 MonoBehaviour:
@@ -1667,7 +1694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1692401278}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1076966668}
+  clickableObject: {fileID: 1357565301}
   waitFrames: 1
 --- !u!114 &1692401277
 MonoBehaviour:
@@ -1685,12 +1712,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.5938
     y: -106.3957
-    width: 93.40425
+    width: 90.85106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 3
-  blockName: bedside
+  blockName: dresser
   description: 
   eventHandler: {fileID: 1692401274}
   commandList:
@@ -1870,11 +1897,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692401260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 2
-  key: HMPSpooky
+  scope: 0
+  key: FridgeSpooky
   value: 0
 --- !u!114 &1692401286
 MonoBehaviour:
@@ -1978,7 +2005,7 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
-  setOperator: 2
+  setOperator: 3
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -2043,7 +2070,7 @@ MonoBehaviour:
   itemId: 45
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1692401285}
+    variable: {fileID: 1692401341}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -2074,7 +2101,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 0
+        integerVal: 2
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -2347,7 +2374,7 @@ MonoBehaviour:
   itemId: 43
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1692401285}
+    variable: {fileID: 1692401341}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -2378,7 +2405,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 0
+        integerVal: 3
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -2892,7 +2919,7 @@ MonoBehaviour:
   itemId: 33
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1692401265}
+    variable: {fileID: 1692401340}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -2923,7 +2950,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 0
+        integerVal: 2
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -3057,8 +3084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 1
-  storyText: Maybe this woman would be better off in a care home. And all that talk
-    about ghosts? Seems a bit loopy.
+  storyText: Maybe this woman would be better off in a care home.
   description: 
   character: {fileID: 1812308985}
   portrait: {fileID: 0}
@@ -3113,8 +3139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 1
-  storyText: This and that fridge wide open too...And a TV reception that hasn't
-    been updated for decades...
+  storyText: TV reception hasn't been updated for decades...
   description: 
   character: {fileID: 1812308985}
   portrait: {fileID: 0}
@@ -3279,7 +3304,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 0
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -3337,7 +3362,7 @@ MonoBehaviour:
           vector4Val: {x: 0, y: 0, z: 0, w: 0}
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 1692401269}
+      variable: {fileID: 1692401285}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -3368,7 +3393,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 0
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -3711,7 +3736,7 @@ MonoBehaviour:
           vector4Val: {x: 0, y: 0, z: 0, w: 0}
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 1692401269}
+      variable: {fileID: 1692401285}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -3742,7 +3767,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 0
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -3950,7 +3975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: And wait, what is that sound? Stomping from the attic?
+  storyText: 'Wait, what is that sound? '
   description: 
   character: {fileID: 1812308985}
   portrait: {fileID: 0}
@@ -4282,7 +4307,7 @@ MonoBehaviour:
   itemId: 20
   indentLevel: 0
   anyVar:
-    variable: {fileID: 1692401265}
+    variable: {fileID: 1692401340}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -4313,7 +4338,7 @@ MonoBehaviour:
         gameObjectVal: {fileID: 0}
       integerData:
         integerRef: {fileID: 0}
-        integerVal: 0
+        integerVal: 3
       materialData:
         materialRef: {fileID: 0}
         materialVal: {fileID: 0}
@@ -4505,8 +4530,8 @@ MonoBehaviour:
   - {fileID: 1692401312}
   - {fileID: 1692401331}
   - {fileID: 1692401310}
-  - {fileID: 1692401325}
   - {fileID: 1692401326}
+  - {fileID: 1692401325}
   suppressAllAutoSelections: 0
 --- !u!114 &1692401317
 MonoBehaviour:
@@ -4540,8 +4565,10 @@ MonoBehaviour:
   - {fileID: 1692401303}
   - {fileID: 1692401305}
   - {fileID: 1692401306}
+  - {fileID: 1692401269}
   - {fileID: 1692401304}
   - {fileID: 1692401302}
+  - {fileID: 1692401265}
   - {fileID: 1692401301}
   - {fileID: 1692401300}
   - {fileID: 1692401299}
@@ -4682,7 +4709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 53
   indentLevel: 0
-  storyText: Maybe this room is haunted and this is her makeshift protective guard?
+  storyText: Could this poster be Marie's makeshift protective guard against hauntings?
   description: 
   character: {fileID: 1812308985}
   portrait: {fileID: 0}
@@ -4758,13 +4785,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1692401260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 50
+  itemId: 65
   indentLevel: 0
-  commenterName: Jet
-  commentText: trigger stomping
+  storyText: Stomping from the attic?
+  description: 
+  character: {fileID: 1812308985}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1692401327
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5051,7 +5089,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1692401339
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5076,6 +5114,36 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1692401340
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692401260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: ToySpooky
+  value: 0
+--- !u!114 &1692401341
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692401260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: HMPSpooky
+  value: 0
 --- !u!1 &1746091312
 GameObject:
   m_ObjectHideFlags: 0

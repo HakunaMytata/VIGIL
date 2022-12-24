@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/New Scenes/Bedroom.unity
     guid: 9702080f049df4c04b16fdcbf73abddc
+  - enabled: 1
+    path: Assets/New Scenes/EndScene.unity
+    guid: 78686788fd77f304b8d5117b87fcfb1c
   m_configObjects: {}
