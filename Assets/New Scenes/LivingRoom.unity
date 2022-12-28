@@ -238,7 +238,6 @@ GameObject:
   - component: {fileID: 59723671}
   - component: {fileID: 59723668}
   - component: {fileID: 59723670}
-  - component: {fileID: 59723709}
   - component: {fileID: 59723708}
   - component: {fileID: 59723707}
   - component: {fileID: 59723706}
@@ -295,6 +294,18 @@ GameObject:
   - component: {fileID: 59723750}
   - component: {fileID: 59723749}
   - component: {fileID: 59723751}
+  - component: {fileID: 59723752}
+  - component: {fileID: 59723753}
+  - component: {fileID: 59723754}
+  - component: {fileID: 59723709}
+  - component: {fileID: 59723756}
+  - component: {fileID: 59723755}
+  - component: {fileID: 59723762}
+  - component: {fileID: 59723761}
+  - component: {fileID: 59723760}
+  - component: {fileID: 59723759}
+  - component: {fileID: 59723758}
+  - component: {fileID: 59723757}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -315,11 +326,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 771.4977, y: 146.85455}
+  scrollPos: {x: 800.5349, y: 245.9135}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.47900063
+  zoom: 0.77900034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -327,9 +338,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 59723659}
+  - {fileID: 59723689}
   selectedCommands:
-  - {fileID: 59723655}
+  - {fileID: 59723757}
   variables:
   - {fileID: 59723615}
   - {fileID: 59723626}
@@ -341,6 +352,7 @@ MonoBehaviour:
   - {fileID: 59723665}
   - {fileID: 59723699}
   - {fileID: 59723619}
+  - {fileID: 59723709}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -395,7 +407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 106.231384
     y: 35.665794
-    width: 78.18368
+    width: 77.727844
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -404,6 +416,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 59723591}
   commandList:
+  - {fileID: 59723753}
   - {fileID: 59723641}
   - {fileID: 59723640}
   - {fileID: 59723618}
@@ -515,7 +528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 249.0375
     y: 33.699226
-    width: 95.928955
+    width: 95.18611
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -552,7 +565,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 84
     y: 131
-    width: 155.42783
+    width: 153.72269
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -562,7 +575,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 59723597}
-  - {fileID: 59723709}
+  - {fileID: 59723754}
   - {fileID: 59723708}
   - {fileID: 59723716}
   - {fileID: 59723715}
@@ -588,8 +601,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Good afternoon, ma'am. I'm supernatural detective Knobi and this is
-    my colleague Miss Birch.
+  storyText: Good afternoon, ma'am. How are you today? I'm supernatural detective
+    Knobi and this is my colleague Miss Birch.
   description: 
   character: {fileID: 1836817569}
   portrait: {fileID: 0}
@@ -775,7 +788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 727.59406
     y: 50.47107
-    width: 94.88512
+    width: 94.159164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -853,7 +866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.3061
     y: 10.234566
-    width: 98.01664
+    width: 97.240036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -948,9 +961,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 600.71027
-    y: 169.46486
-    width: 66.70144
+    x: 608.41254
+    y: 159.19519
+    width: 66.43131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1004,7 +1017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.34756
     y: 75.82706
-    width: 77.13984
+    width: 76.70089
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1499,7 +1512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 125
   indentLevel: 1
-  storyText: The chandelier on these pictures... {w=0.5]It's the same one as upstairs.
+  storyText: The chandelier on these pictures... {w=0.5}It's the same one as upstairs.
   description: 
   character: {fileID: 1836817569}
   portrait: {fileID: 0}
@@ -1528,7 +1541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588.63916
     y: 84.756165
-    width: 98.01664
+    width: 97.240036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1650,8 +1663,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 1
-  storyText: 'The furniture couldn''t be more different. In the picture there''s
-    a gorgeous chandelier hanging from the ceiling. Here...a pale white dish. '
+  storyText: The furniture couldn't be more different. In the picture there's a gorgeous
+    chandelier hanging from the ceiling. Here...a pale white plastic lampshade.
   description: 
   character: {fileID: 1836817569}
   portrait: {fileID: 0}
@@ -2890,7 +2903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 769.9166
     y: 215.64145
-    width: 119.93728
+    width: 118.80613
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3480,7 +3493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 612.6822
     y: 366.85837
-    width: 98.01664
+    width: 97.240036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3637,7 +3650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 388.51263
     y: 307.68338
-    width: 120.98112
+    width: 119.83309
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3693,7 +3706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 576.6146
     y: 241.02483
-    width: 125.15648
+    width: 123.94092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3727,7 +3740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407.69098
     y: 221.21384
-    width: 125.15648
+    width: 123.94092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3832,7 +3845,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 207.61261
     y: 222.28105
-    width: 102.192
+    width: 101.347855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3846,6 +3859,7 @@ MonoBehaviour:
   - {fileID: 59723690}
   - {fileID: 59723687}
   - {fileID: 59723686}
+  - {fileID: 59723762}
   - {fileID: 59723697}
   - {fileID: 59723692}
   - {fileID: 59723685}
@@ -3855,6 +3869,7 @@ MonoBehaviour:
   - {fileID: 59723695}
   - {fileID: 59723694}
   - {fileID: 59723691}
+  - {fileID: 59723752}
   suppressAllAutoSelections: 0
 --- !u!114 &59723664
 MonoBehaviour:
@@ -3931,7 +3946,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: 'Looks you don''t have enough evidence to make up a definitive verdict. '
+  storyText: 'Ehm... Knobi. What''s this you''re trying to pass on me? An infantile
+    scribble? '
   description: 
   character: {fileID: 382742364}
   portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
@@ -3958,9 +3974,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -86.37145
-    y: 426.80603
-    width: 168.99776
+    x: -87.65515
+    y: 428.08972
+    width: 167.07312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3970,7 +3986,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 59723668}
+  - {fileID: 59723756}
   - {fileID: 59723737}
+  - {fileID: 59723755}
   - {fileID: 59723670}
   suppressAllAutoSelections: 0
 --- !u!114 &59723670
@@ -4303,7 +4321,7 @@ MonoBehaviour:
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 59723665}
+      variable: {fileID: 59723709}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -4623,7 +4641,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -272.48895
     y: 289.53226
-    width: 153.34015
+    width: 151.66876
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4736,7 +4754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 1
-  text: No
+  text: No, there is no ghost.
   description: 
   targetBlock: {fileID: 59723689}
   hideIfVisited: 0
@@ -4761,7 +4779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 1
-  text: Yes
+  text: Yes, there is a ghost.
   description: 
   targetBlock: {fileID: 59723688}
   hideIfVisited: 0
@@ -4786,9 +4804,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -25.363003
-    y: 223.91331
-    width: 142.90176
+    x: -74.14348
+    y: 220.06218
+    width: 141.3992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4822,7 +4840,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 191.47182
     y: 426.6134
-    width: 150.20863
+    width: 148.58789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4831,6 +4849,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 59723758}
+  - {fileID: 59723757}
   - {fileID: 59723683}
   - {fileID: 59723748}
   - {fileID: 59723739}
@@ -4932,7 +4952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 1
-  storyText: I'm not gonna give you any tips, Knobi. Just come back once you think
+  storyText: I'm not gonna give you any tips, knobi. Just come back once you think
     you've collected enough evidence.
   description: 
   character: {fileID: 382742364}
@@ -5001,7 +5021,7 @@ MonoBehaviour:
           audioSourceVal: {fileID: 0}
         booleanData:
           booleanRef: {fileID: 0}
-          booleanVal: 0
+          booleanVal: 1
         collectionData:
           collectionRef: {fileID: 0}
           collectionVal: {fileID: 0}
@@ -5111,7 +5131,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: -5
+          integerVal: -3
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -5655,7 +5675,7 @@ MonoBehaviour:
           vector4Val: {x: 0, y: 0, z: 0, w: 0}
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 59723625}
+      variable: {fileID: 59723665}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -6584,7 +6604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: It smells really good in here.
+  storyText: It, erm, smells really good in here.
   description: 
   character: {fileID: 1836817569}
   portrait: {fileID: 0}
@@ -6606,24 +6626,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 59723587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
-  indentLevel: 0
-  storyText: 'We''re here with VIGIL. '
-  description: 
-  character: {fileID: 1836817569}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  scope: 2
+  key: Recorded
+  value: 0
 --- !u!114 &59723710
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6803,7 +6811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: 'Oh, yes. That would be my onion soup. '
+  storyText: 'Oh. Well thank you. That would be my onion soup. '
   description: 
   character: {fileID: 488695667}
   portrait: {fileID: 21300000, guid: 9722f9b79afe7485abd183369378c4b0, type: 3}
@@ -7984,16 +7992,288 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 868268094}
   _duration:
     floatRef: {fileID: 0}
     floatVal: 1
   _targetColor:
     colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
   waitUntilFinished: 1
   durationOLD: 0
   targetColorOLD: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &59723752
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 166
+  indentLevel: 0
+--- !u!114 &59723753
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce3bd679be2c94196f3f6aaeb33f0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 167
+  indentLevel: 0
+--- !u!114 &59723754
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 170
+  indentLevel: 0
+  storyText: We're here with VIGIL.
+  description: 
+  character: {fileID: 1836817569}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723755
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 172
+  indentLevel: 0
+  storyText: You should know better.
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723756
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  storyText: 'This is not enough evidence to make up a definitive verdict. '
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 178
+  indentLevel: 0
+  storyText: Noted, knobi. Thanks for your hard work. I'll make up the report and
+    send it to the boss.
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 177
+  indentLevel: 0
+  storyText: You know what. I don't think there's a ghost here. If anything, they're
+    just shrouded memories in Marie's head.
+  description: 
+  character: {fileID: 1836817569}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 176
+  indentLevel: 0
+  storyText: Hrmph. Just hurry up okay.
+  description: 
+  character: {fileID: 382742364}
+  portrait: {fileID: 21300000, guid: 16bc762e1329a4ac9befcfa36c22dc4b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  storyText: I need some more time to find evidence.
+  description: 
+  character: {fileID: 1836817569}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &59723761
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 551.1975
+    y: 512.7511
+    width: 107.5096
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 174
+  blockName: More time
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 59723760}
+  - {fileID: 59723759}
+  suppressAllAutoSelections: 0
+--- !u!114 &59723762
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59723587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 1
+  text: I need some more time
+  description: 
+  targetBlock: {fileID: 59723761}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &126335855
 GameObject:
   m_ObjectHideFlags: 0
@@ -9651,7 +9931,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a5239fda1a0a947ef87b260257d56e84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12392,7 +12672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: f79f949a9798b47d2b3a091872d7b7f7, type: 3}
   useEventSystem: 1
 --- !u!61 &2110191730
 BoxCollider2D:
